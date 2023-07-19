@@ -1,0 +1,9 @@
+Steps to create project.
+01.Create a directory
+02.Create project in that directory.
+03.run pipenv lock # You need to run $ pipenv lock before you can continue.
+04.RUN pipenv sync
+05.RUN pipenv shell # To activate this project's virtualenv, run pipenv shell.
+06.Create requirement.txt
+07.RUN pipenv install -r requirements.txt
+
